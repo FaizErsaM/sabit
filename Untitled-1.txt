@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main (){
+    int x1,x2,x3,x4,x5,x6,u;
+    cout<<"masukan bilangan 1 :";
+    cin>>x1;
+    cout<<"masukan bilangan 2 :";
+    cin>>x2;
+    cout<<"masukan bilangan 3 :";
+    cin>>x3;
+    cout<<"masukan bilangan 4 :";
+    cin>>x4;
+    cout<<"masukan bilangan 5 :";
+    cin>>x5;
+    cout<<"masukan bilangan 6 :";
+    cin>>x6;
+
+
+    cout<<"nilai bilangan 1 : "<<x1<<endl;
+    cout<<"nilai bilangan 2 : "<<x2<<endl;
+    cout<<"nilai bilangan 3 : "<<x3<<endl;
+    cout<<"nilai bilangan 4 : "<<x4<<endl;
+    cout<<"nilai bilangan 5 : "<<x5<<endl;
+    cout<<"nilai bilangan 6 : "<<x6<<endl;
+ 
+    u=(x1+x2+x3+x4+x5+x6)/6;
+
+    cout<<"rata rata :"<<u<<endl;
+    return 0;
+
+}
